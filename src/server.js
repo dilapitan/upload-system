@@ -8,5 +8,7 @@ app.use(morgan('combined'))
 app.use(bodyParser.json())
 app.use(cors())
 
+require('./routes')(app)
+
 app.listen(config.port)
 console.log(`Server listening to port ${config.port}`)
