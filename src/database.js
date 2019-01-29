@@ -18,3 +18,5 @@ connection.connect( (err) => {
     console.log('Error connected to the database.')
 })
 
+connection.query('USE saisdb')
+module.exports = connection;

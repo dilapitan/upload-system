@@ -1,7 +1,6 @@
+const StudentController = require('./controllers/StudentController')
+
 module.exports = (app) => {
-  app.get('/', (req, res, next) => {
-    res.status(200).json({
-      message: 'Hello World!'
-    })
-  })
+  app.get('/viewStudentRecords',
+    StudentController.retrieveStudentRecords)
 }
