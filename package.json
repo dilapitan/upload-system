@@ -4,7 +4,8 @@
   "description": "This Module for the UPLOAD System will be responsible for handling the different information that will be related to the student and the student record of the students in the University. When the student first comes into the University, a record will be created for the student and it will be continuously updated until such time that the student will go out of the University. When the student does go out of the University, the record will then be archived and will be kept so that if that student may need a copy of his or her grades, the University will be able to offer it through the use of this System.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/server.js"
   },
   "repository": {
     "type": "git",
