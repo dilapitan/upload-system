@@ -1,0 +1,28 @@
+{
+  "name": "upload-system",
+  "version": "1.0.0",
+  "description": "This Module for the UPLOAD System will be responsible for handling the different information that will be related to the student and the student record of the students in the University. When the student first comes into the University, a record will be created for the student and it will be continuously updated until such time that the student will go out of the University. When the student does go out of the University, the record will then be archived and will be kept so that if that student may need a copy of his or her grades, the University will be able to offer it through the use of this System.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dilapitan/upload-system.git"
+  },
+  "author": "Dominic Lapitan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dilapitan/upload-system/issues"
+  },
+  "homepage": "https://github.com/dilapitan/upload-system#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "joi": "^14.3.1",
+    "morgan": "^1.9.1",
+    "mysql": "^2.16.0",
+    "nodemon": "^1.18.9"
+  }
+}
